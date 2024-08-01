@@ -28,13 +28,13 @@ jobs:
       
         - name: Run test
           run: |
-          echo "Runnign test project 1"
-          dotnet test TestProject1/TestProject1.csproj --verbosity normal
+            echo "Runnign test project 1"
+            dotnet test TestProject1/TestProject1.csproj --verbosity normal
         - name: Run test
           run: |
-          echo "Runnign test project 2"
-          dotnet test TestProject2/TestProject2.csproj --verbosity normal
+            echo "Runnign test project 2"
+            dotnet test TestProject2/TestProject2.csproj --verbosity normal
         - name: Run test
           run: |
-          echo "Runnign test project 3"
-          dotnet test TestProject3/TestProject3.csproj --verbosity normal
+            echo "Runnign test project 3"
+            dotnet test TestProject3/TestProject3.csproj --verbosity normal
